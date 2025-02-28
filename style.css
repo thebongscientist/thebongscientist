@@ -42,10 +42,10 @@ a.active,a:hover{
     transition: .5s;
 }
 section{
-    background: url(Image/fig11.png)no-repeat;
-    background-size: cover;
-    height: auto;
-
+    background: url(Image/fig11.png);
+    /* background-size: cover; */
+    /* height: auto; */
+    
 }
 .button{
     background-color: #256d04;
@@ -109,8 +109,16 @@ a:hover{
         font-size: medium;
     }
     li a{
-        font-size: 15px;
+        font-size: 8px;
+        
     }
+    .container-about{
+        display: flex;
+        color: black;
+        background-color: rgb(17, 31, 66);
+    
+    }
+    
     
 }
 .youtube{
@@ -141,7 +149,7 @@ a:hover{
     padding-bottom: 2%;
     margin-top: 0;
     margin-bottom: 0px;
-    height: 200px;
+    height: 180px;
     text-align: left;
     color: #fff;
     background-color: rgb(3, 36, 19) ;
@@ -298,7 +306,8 @@ a:hover{
 /* about */
 .container-about{
     display: flex;
-    color: black;
+    /* color: black; */
+    /* background-color: rgb(17, 31, 66); */
 
 }
 .description-container-about h1{
@@ -310,7 +319,8 @@ a:hover{
     color: #fff;
 }
 .description-container-about p{
-    font-size: 30px;
+    font-size: 20px;
+    color: #fff;
 }
 
 .description-container-about{

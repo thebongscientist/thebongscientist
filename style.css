@@ -18,7 +18,7 @@ header{
     
 }
 .navdiv{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -97,15 +97,27 @@ a:hover{
         width: 95%;
         margin-left: 10px;
     }
-    .container1{
-        height: auto;
-        width: 50px;
+    .container-about img{
         flex-direction: column;
-
+        width: 95%;
+        margin-left: 12px;
+    }
+    .inbg3{
+        font-size: small;
+    }
+    .logo a{
+        font-size: medium;
+    }
+    li a{
+        font-size: 15px;
     }
     
 }
-
+.youtube{
+    width:365px;
+    height:80;
+    align-items: center;
+}
 .inbg1{
     height: 45px;
     text-align: center;
@@ -129,15 +141,14 @@ a:hover{
     padding-bottom: 2%;
     margin-top: 0;
     margin-bottom: 0px;
-    height: 120px;
+    height: 200px;
     text-align: left;
     color: #fff;
     background-color: rgb(3, 36, 19) ;
 }    
 .container1{
-    background: linear-gradient(270deg, #690347,#033147);
-    padding-left: 90px;
-    background-image: url();
+    padding-left: 45px;
+    
 
 }
 
@@ -145,21 +156,21 @@ a:hover{
 .socials-container {
     margin-left:10px;
     display: flex;
-    gap: 30px;
+    gap: 32px;
     
 
 }
-.socials-container a{
+/*.socials-container a{
     background-color: #fff;
     padding: 1em;
     border-radius: 50%;
-    height: 64px;
-    width: 64px;
+    height: 6px;
+    width: 6px;
     flex-shrink: 0;
     place-items: center;
     box-shadow: 0  5px 10px rgba(0, 0, 0, 0.05);
 
-}
+}*/
 .socials-container a svg {
     height: 32px;
     gap: 32px;
@@ -229,9 +240,9 @@ a:hover{
 }
 .reviews h2{
     text-align: center;
-    font-size: 80px;
+    font-size: 45px;
     margin-bottom: 8px;
-    color: #080808;
+    color: #fff;
 }
 
 .card-container{
@@ -250,8 +261,8 @@ a:hover{
     
 }
 .card img{
-    height: 50vh;
-    width: 100vh;
+    height: 325px;
+    width: auto;
 
 }
 
@@ -291,10 +302,12 @@ a:hover{
 
 }
 .description-container-about h1{
-    font-size: 50px;
+    font-size: 32px;
+    color: #fff;
 }
 .description-container-about h2{
-    font-size: 35px;
+    font-size: 32px;
+    color: #fff;
 }
 .description-container-about p{
     font-size: 30px;

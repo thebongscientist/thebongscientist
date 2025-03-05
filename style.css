@@ -118,14 +118,11 @@ a:hover{
         background-color: rgb(17, 31, 66);
     
     }
-    .youtube{
-     width:365px;
-    height:80px;
     
 }
 .youtube{
-    width:560px;
-    height:315px;
+    width:365px;
+    height:80px;
     align-items: center;
 }
 .inbg1{
